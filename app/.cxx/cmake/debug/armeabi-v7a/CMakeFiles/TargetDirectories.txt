@@ -1,0 +1,11 @@
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native-lib.dir
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/inject/CMakeFiles/edit_cache.dir
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/inject/CMakeFiles/inject_jni.dir
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/inject/CMakeFiles/rebuild_cache.dir
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/inject/CMakeFiles/inject.dir
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/inlinehook/CMakeFiles/rebuild_cache.dir
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/inlinehook/CMakeFiles/edit_cache.dir
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/inlinehook/CMakeFiles/inlinehook.dir
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/inlinehook/CMakeFiles/hooktest.dir

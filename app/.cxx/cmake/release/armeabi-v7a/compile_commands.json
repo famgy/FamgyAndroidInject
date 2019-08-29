@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dnative_lib_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o CMakeFiles/native-lib.dir/native-lib.cpp.o -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/native-lib.cpp",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/native-lib.cpp"
+},
+
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -Dinject_jni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIC   -o inject/CMakeFiles/inject_jni.dir/inject_jni.cpp.o -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inject/inject_jni.cpp",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inject/inject_jni.cpp"
+},
+
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -Oz -DNDEBUG  -fPIE   -o inject/CMakeFiles/inject.dir/inject.cpp.o -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inject/inject.cpp",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inject/inject.cpp"
+},
+
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dinlinehook_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o inlinehook/CMakeFiles/inlinehook.dir/inlineHook.c.o   -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/inlineHook.c",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/inlineHook.c"
+},
+
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dinlinehook_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o inlinehook/CMakeFiles/inlinehook.dir/relocate.c.o   -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/relocate.c",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/relocate.c"
+},
+
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dinlinehook_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o inlinehook/CMakeFiles/inlinehook.dir/impl/impl_open.c.o   -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/impl/impl_open.c",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/impl/impl_open.c"
+},
+
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dinlinehook_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o inlinehook/CMakeFiles/inlinehook.dir/impl/impl_close.c.o   -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/impl/impl_close.c",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/impl/impl_close.c"
+},
+
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dinlinehook_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIC   -o inlinehook/CMakeFiles/inlinehook.dir/main.c.o   -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/main.c",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/main.c"
+},
+
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIE   -o inlinehook/CMakeFiles/hooktest.dir/inlineHook.c.o   -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/inlineHook.c",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/inlineHook.c"
+},
+
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIE   -o inlinehook/CMakeFiles/hooktest.dir/relocate.c.o   -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/relocate.c",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/relocate.c"
+},
+
+{
+  "directory": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/release/armeabi-v7a",
+  "command": "/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi19 --gcc-toolchain=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/famgy/Android/Sdk/ndk/20.0.5594570/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Oz -DNDEBUG  -fPIE   -o inlinehook/CMakeFiles/hooktest.dir/hooktest.c.o   -c /home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/hooktest.c",
+  "file": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/inlinehook/hooktest.c"
+}
+]

@@ -1,0 +1,11 @@
+Executable : /home/famgy/Android/Sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a
+hooktest
+inject
+inject_jni
+inlinehook
+native-lib
+jvmArgs : 
+

@@ -1,0 +1,69 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject",
+      "sdkFolder": "/home/famgy/Android/Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/build/intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app",
+      "makeFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/.cxx",
+      "cxxFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx",
+      "ndkFolder": "/home/famgy/Android/Sdk/ndk/20.0.5594570",
+      "ndkVersion": "20.0.5594570",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "soFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/build/intermediates/cmake/debug/lib",
+    "objFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/build/intermediates/cmake/debug/obj",
+    "jsonFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug",
+    "gradleBuildOutputFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cxx/debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 19,
+  "cxxBuildFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a",
+  "jsonFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/android_gradle_build.json",
+  "gradleBuildOutputFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cxx/debug/armeabi-v7a",
+  "objFolder": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/build/intermediates/cmake/debug/obj/armeabi-v7a",
+  "buildCommandFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/build_command.txt",
+  "buildOutputFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/build_output.txt",
+  "modelOutputFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cxx/debug/armeabi-v7a/CMakeLists.txt",
+    "toolchainWrapperFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cxx/debug/armeabi-v7a/android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cxx/debug/armeabi-v7a/build_generation_state.json",
+    "cacheKeyFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_key.json",
+    "compilerCacheUseFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_use.json",
+    "compilerCacheWriteFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cxx/debug/armeabi-v7a/compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cxx/debug/armeabi-v7a/compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/json_generation_record.json",
+  "compileCommandsJsonFile": "/home/famgy/Workstation/Projects/Android/FamgyAndroidInject/app/.cxx/cmake/debug/armeabi-v7a/compile_commands.json"
+}

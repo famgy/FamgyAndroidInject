@@ -1,0 +1,8 @@
+//
+// Created by famgy on 8/20/19.
+//
+
+#ifndef FAMGYANDROIDINJECT_INJECT_H
+#define FAMGYANDROIDINJECT_INJECT_H
+
+#endif //FAMGYANDROIDINJECT_INJECT_H
