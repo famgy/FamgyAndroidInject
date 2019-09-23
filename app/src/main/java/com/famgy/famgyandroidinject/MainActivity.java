@@ -19,8 +19,6 @@ public class MainActivity extends AppCompatActivity {
     // Used to load the 'native-lib' library on application startup.
     static {
         System.loadLibrary("native-lib");
-        //System.loadLibrary("inject_jni");
-
     }
 
     @Override
@@ -38,13 +36,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initView() {
-//        try {
-//            Process process = Runtime.getRuntime().exec("su");
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-
-
         findViewById(R.id.bt_pdf).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -107,5 +98,4 @@ public class MainActivity extends AppCompatActivity {
      * which is packaged with this application.
      */
     public native String stringFromJNI();
-    static native String injectAndroid(int pid);
 }

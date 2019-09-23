@@ -20,7 +20,8 @@ int __nativehook_impl_android_openat(int dirFd, const char *pathName, int flag, 
 
     realFd = old_openat(dirFd, pathName, flag, mode);
 
-    if (0 == strcmp("/data/user/0/com.famgy.famgyandroidinject/cache/pdf_test.pdf-pdfview.pdf", pathName)) {
+    //0 == strcmp("/data/user/0/com.famgy.famgyandroidinject/cache/pdf_test.pdf-pdfview.pdf", pathName)
+    if (NULL != strstr(pathName, "pdf_test.pdf-pdfview.pdf")) {
     //if (0 == strcmp("/data/user/0/com.famgy.famgyandroid/cache/pdf_test.pdf-pdfview.pdf", pathName)) {
         g_fd = realFd;
         __android_log_print(ANDROID_LOG_DEBUG, "===inlinehook===", "__nativehook_impl_android_openat %s, fd = %d", pathName, realFd);
@@ -31,7 +32,7 @@ int __nativehook_impl_android_openat(int dirFd, const char *pathName, int flag, 
 
 int __nativehook_impl_android_open(const char *pathName, int flag, int mode)
 {
-    if (0 == strcmp("/data/user/0/com.famgy.famgyandroidinject/cache/pdf_test.pdf-pdfview.pdf", pathName)) {
+    if (NULL != strstr(pathName, "pdf_test.pdf-pdfview.pdf")) {
     //if (0 == strcmp("/data/user/0/com.famgy.famgyandroid/cache/pdf_test.pdf-pdfview.pdf", pathName)) {
         __android_log_print(ANDROID_LOG_DEBUG, "===inlinehook===", "__nativehook_impl_android_open %s\n", pathName);
     }
