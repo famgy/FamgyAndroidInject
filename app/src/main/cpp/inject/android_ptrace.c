@@ -43,6 +43,15 @@ int ptrace_getregs(pid_t pid, struct pt_regs *regs) {
     return 0;
 }
 
+int ptrace_setregs(pid_t pid, struct pt_regs *regs) {
+    if (ptrace(PTRACE_SETREGS, pid, NULL, regs) < 0) {
+        perror("ptrace_setregs:Can not set regsiter values.");
+        return -1;
+    }
+
+    return 0;
+}
+
 void *get_module_base(pid_t pid, const char *module_name) {
     FILE *fp;
     long addr = 0;
@@ -153,24 +162,6 @@ int ptrace_writedata(pid_t pid, uint8_t *dest, uint8_t *data, size_t size) {
     return 0;
 }
 
-int ptrace_setregs(pid_t pid, struct pt_regs *regs) {
-    if (ptrace(PTRACE_SETREGS, pid, NULL, regs) < 0) {
-        perror("ptrace_setregs:Can not set regsiter values.");
-        return -1;
-    }
-
-    return 0;
-}
-
-int ptrace_continue(pid_t pid) {
-    if (ptrace(PTRACE_CONT, pid, NULL, 0) < 0) {
-        perror("ptrace_cont");
-        return -1;
-    }
-
-    return 0;
-}
-
 int ptrace_call(pid_t pid, uint32_t addr, long *params, uint32_t num_params, struct pt_regs *regs) {
     uint32_t i;
 
@@ -195,7 +186,7 @@ int ptrace_call(pid_t pid, uint32_t addr, long *params, uint32_t num_params, str
 
     regs->ARM_lr = 0;
 
-    if (ptrace_setregs(pid, regs) == -1 || ptrace_continue(pid) == -1) {
+    if (ptrace(PTRACE_SETREGS, pid, NULL, regs) < 0 == -1 || ptrace(PTRACE_CONT, pid, NULL, 0) == -1) {
         printf("ptrace_call error.\n");
         return -1;
     }
@@ -204,8 +195,8 @@ int ptrace_call(pid_t pid, uint32_t addr, long *params, uint32_t num_params, str
     waitpid(pid, &stat, WUNTRACED);
 
     while(stat != 0xb7f) {
-        if (ptrace_continue(pid) == -1) {
-            printf("ptrace_continue error.\n");
+        if (ptrace(PTRACE_CONT, pid, NULL, 0) == -1) {
+            printf("ptrace continue error.\n");
             return -1;
         }
         waitpid(pid, &stat, WUNTRACED);
@@ -213,14 +204,6 @@ int ptrace_call(pid_t pid, uint32_t addr, long *params, uint32_t num_params, str
 
     return 0;
 };
-
-long ptrace_retval(struct pt_regs* regs){
-    return regs->ARM_r0;
-}
-
-long ptrace_ip(struct pt_regs* regs){
-    return regs->ARM_pc;
-}
 
 
 int ptrace_call_wrapper(pid_t target_pid, const char *func_name, void *func_addr, long *params, int param_num, struct pt_regs *regs) {
@@ -235,6 +218,6 @@ int ptrace_call_wrapper(pid_t target_pid, const char *func_name, void *func_addr
         return -1;
     }
 
-    printf("[+] Target process returned from %s, return value = %x, pc = %x \n", func_name, ptrace_retval(regs), ptrace_ip(regs));
+    printf("[+] Target process returned from %s, return value = %x\n", func_name, regs->ARM_r0);
     return 0;
 }

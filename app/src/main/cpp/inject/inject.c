@@ -47,7 +47,7 @@ int inject_remote_process(pid_t target_pid, const char* library_path) {
         return -1;
     }
 
-    calloc_mem = ptrace_retval(&regs);
+    calloc_mem = regs.ARM_r0;
     ptrace_writedata(target_pid, calloc_mem, library_path, strlen(library_path) + 1);
 
     //Call dlopen

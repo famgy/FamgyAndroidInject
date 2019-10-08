@@ -11,13 +11,14 @@
         adb shell
         su
         cd /data/local/tmp
+        cp libinlinehook.so /system/lib/
         chmod +x inject
 
     3. 找到FamgyAndroid程序运行的进程号pid
         top -n 1 | grep famgy
 
     4. 运行注入程序inject，attch到FamgyAndroid进程中，并加载libinlinehook.so到FamgyAndroid进程中。
-        ./inject 6143 /data/local/tmp/libinlinehook.so
+        ./inject 6143 /system/lib/libinlinehook.so
 
     5. 打开手机日志，观察是否已经注入，并hook成功openat和close函数
         logcat
